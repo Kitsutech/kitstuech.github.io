@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            
+        </div>
+        <img src="https://images.unsplash.com/photo-1525373698358-041e3a460346?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100">
+                    <h1 class="display-3 text-white">
+                        Unlimited online courses.
+                    </h1>
+                    <p class="lead mb-0">
+                        Watch anywhere. Advance your career.
+                    </p>
+                    <p>
+                        <a href="#checkout" class="btn btn-primary my-5 px-4 py-2">
+                            Enroll now >
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="pricing-header text-center">
+        <h2 class="display-4 text-white py-5">
+            Pricing
+        </h2>
+    </div>
+
+    <div class="container">
+        <div class="card-deck mb-3 text-center mx-1 px-1">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <h3>
+                        Sale
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title pricing-card-title">
+                        $49.99
+                        <small class="text-muted">
+                            Regularly $499.99
+                        </small>
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li>Lifetime access</li>
+                        <li>Certificate of completion</li>
+                        <li>Project based curriculum</li>
+                        <li>800,000 copies sold</li>
+                    </ul>
+
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="checkout">
+        <div class="header text-center">
+            <h2 class="display-4 text-white py-4">
+                Checkout
+            </h2>
+        </div>
+        <div class="row px-5 mx-5 py-5 text-white">
+            <div class="col-md-4 order-md-2 mb-4 text-dark">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted">
+                        Your cart
+                    </span>
+                    <span class="badge badge-secondary badge-pill">
+                        1
+                    </span>
+                </h4>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                            <h5>
+                                Promo code
+                                <small>SALE</small>
+                            </h5>
+                            <span class="text-success">
+                                -$450.00
+                            </span>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>
+                            Total (USD)
+                        </span>
+                        <strong>
+                            $49.99
+                        </strong>
+                    </li>
+                </ul>
+                <form class="card p-2">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">
+                                Redeem
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">
+                    Billing address
+                </h4>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="firstName" required>
+                            <label for="firstName">
+                                First name
+                            </label>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="lastName" required>
+                            <label for="lastName">
+                                Last name
+                            </label>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <input type="email" class="form-control" id="email" required>
+                            <label for="email">
+                                Email
+                            </label>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <input type="text" class="form-control" id="address" required>
+                            <label for="address">
+                                Address
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 mb-3">
+                            <label for="country">
+                                Country
+                            </label>
+                            <select class="custom-select d-block w-100" id="country" required>
+                                <option value="">Choose...</option>
+                                <option>United States</option>
+                                <option>Canada</option>
+                                <option>United Kingdom</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="state">
+                                State
+                            </label>
+                            <select class="custom-select d-block w-100" id="state" required>
+                                <option value="">Choose...</option>
+                                <option>California</option>
+                                <option>Idaho</option>
+                                <option>Oregon</option>
+                                <option>Washington</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="zipcode">
+                                Zipcode
+                            </label>
+                            <input type="text" class="form-control" id="zipcode" required>
+                        </div>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="sameAddress">
+                        <label class="custom-control-label" for="sameAddress">
+                            Shipping address is the same as my billing address
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="saveInfo">
+                        <label for="saveInfo" class="custom-control-label">
+                            Save my address
+                        </label>
+                    </div>
+                    <h3 class="mb-3 py-2">
+                        Payment
+                    </h3>
+                    <div class="d-block my-3">
+                        <div class="custom-control custom-radio">
+                            <input checked id="creditcard" name="paymentMethod" type="radio" class="custom-control-input">
+                            <label class="custom-control-label" for="creditcard">
+                                Credit card
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="debitcard" name="paymentMethod" type="radio" class="custom-control-input">
+                            <label class="custom-control-label" for="debitcard">
+                                Debit card
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input">
+                            <label class="custom-control-label" for="paypal">
+                                Paypal
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="cardholder" required>
+                            <label for="cardholder">
+                                Name of cardholder
+                            </label>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="card-number" required>
+                            <label for="card-number">
+                                Card number
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <input type="text" class="form-control" id="expire-date" required>
+                            <label for="expire-date">
+                                Expiration Date
+                            </label>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <input type="text" class="form-control" id="security-code" required>
+                            <label for="security-code">
+                                Security code
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap and Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</body>
+</html>
