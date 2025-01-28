@@ -3,21 +3,25 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    background-color: black;
 }
 
 .block {
     color: white;
     align-content: center;
     padding: 10%;
+    background-color: #000;
 }
 
+/*
 .block-1 {
-    background-color: #7e88a5;
+    background-color: #000000;
 }
 
 .block-2 {
-    background-color: #a16db6;
+    background-color: #0c0c0c;
 }
+    */
 
 a {
     font-size: 1.5rem;
@@ -29,4 +33,10 @@ a::hover {
 
 .full-page {
     height: 100vh;
+}
+
+@media screen and (min-width: 700px) {
+    #navigation {
+        display: none;
+    }
 }
