@@ -1,0 +1,32 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.block {
+    color: white;
+    align-content: center;
+    padding: 10%;
+}
+
+.block-1 {
+    background-color: #7e88a5;
+}
+
+.block-2 {
+    background-color: #a16db6;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+a::hover {
+    font-size: 1.6rem;
+}
+
+.full-page {
+    height: 100vh;
+}
